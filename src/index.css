@@ -1,0 +1,154 @@
+#login {
+  height: 100vh;
+}
+
+.list {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  justify-content: end;
+}
+
+.list li {
+  padding: 10px;
+}
+
+.navbar-bg-body {
+  background-color: #cecfd0;
+}
+
+.brandLogo {
+  font-family: "Roboto Slab", system-ui;
+}
+
+.add_news {
+  padding: 45px 0px 45px 0px;
+}
+
+.text-hover{
+  font-family: "Roboto", sans-serif;
+  text-transform: capitalize;
+}
+
+.text-paragraph{
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+.text-hover:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.dotted-border-bottom {
+  border-bottom: 1px dotted #000;
+}
+
+
+.list li{
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+
+.active{
+  border: 1px solid #db3545 !important;
+    padding: 5px !important;
+    background: #db3545 !important;
+    font-family: "Roboto Slab", system-ui;
+    color: #fff!important;
+}
+
+.nav-item-link{
+  font-family: "Roboto Slab", system-ui;
+  font-weight: bold!important;
+}
+
+.subscription-info .card-title{
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.subscription-info form label{
+  font-family: "Roboto", sans-serif;
+  text-transform: capitalize;
+  color: #fff;
+}
+
+.subscription-info form button{
+  font-family: "Roboto", sans-serif;
+}
+
+.privacy-info p{
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+.settings-page{
+  position: absolute;
+    right: 0;
+    z-index: 1;
+    border: 1px solid #e8e8e8;
+    padding: 20px;
+    background: #151b23;
+    line-height: 30px;
+}
+
+.settings-page li{
+  display: flex;
+  font-size: 13px;
+  color: #fff;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.settings-page p{
+  color: #fff;
+}
+.settings-icon{
+  font-size: 13px;
+    margin-right: 18px;
+    margin-top: 10px;
+    color: #9198A1;
+}
+
+.horizontalLine{
+  border-bottom: 1px solid #fff;
+}
+
+.close_icon {
+  color: #919891;
+  text-align: right;
+  margin-left: 20%;
+  margin-top: 7px;
+  cursor: pointer;
+}
+
+.settings-page li:hover{
+  background: #545454;
+  border-radius: 10px;
+}
+
+.icon{
+  padding-right: 10px;
+  color: #575757;
+} 
+
+.source-details{
+  border-left: 5px solid rgb(250, 144, 0);
+  padding-left: 10px;
+}
+
+.description-list{
+  line-height: 30px;
+  list-style-type: none;
+}
+
+.description-list li::before {
+  content: "•";
+  color: #fa9000;
+  font-size: 30px;
+  position: absolute;
+  left: 120px;
+}
