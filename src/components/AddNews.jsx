@@ -24,21 +24,7 @@ function AddNews() {
   };
 
   const selectFile = (event) => {
-    //const selectedFile = event.target.files[0];
     setImage(event.target.files[0])
-    // if (validateExtension(selectedFile.name)) {
-    //   let reader = new FileReader();
-
-    //   reader.readAsDataURL(selectedFile);
-
-    //   reader.onload = () => {
-    //     setImage(reader.result);
-    //   };
-    // } else {
-    //   toast.error(
-    //     `Only File Type of ${allowedExtensions.join(",")} are allowed`
-    //   );
-    // }
   };
   const handleAddNews = async () => {
     setLoading(true);
