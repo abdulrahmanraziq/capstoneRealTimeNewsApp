@@ -102,7 +102,7 @@ const subscriptionMail = async (req, res) => {
               <p style="font-family: Arial, sans-serif; color: #555555; font-size: 16px; line-height: 1.5;">
                 ${payload.description.split(" ").slice(0, 20).join(" ")}...
               </p>
-              <a href="http://localhost:5173/${payload.topic}/${
+              <a href="https://6703f07d5a44d51d9babd3f8--gregarious-torrone-92ea99.netlify.app/${payload.topic}/${
               newsSubscriptions._id
             }"  style="background-color: #f00; color: #fff; padding: 3px; text-decoration: none; border:1px solid #f00; border-radius: 5px;">
                 Click Here to View News
